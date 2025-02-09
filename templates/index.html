@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Playlist Generator</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quantico:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <div class="container">
+        <h1>🎵 AI Playlist Generator</h1>
+        <img src="https://st3.depositphotos.com/12548352/16157/i/450/depositphotos_161575718-stock-photo-man-playing-vinyl-record.jpg" class="container" class="center">
+        <form action="/" method="POST">
+            <label for="decade">Enter a decade and if you want, add a mood:</label>
+            <input type="text" name="decade" id="decade" placeholder="e.g., 1990s" required>
+            <button type="submit">🎶 Generate Playlist</button>
+        </form>
+
+        {% if songs %}
+        <h2>Most Popular Songs:</h2>
+        <div class="playlist-box">
+            <pre>{{ songs }}</pre>
+            
+            
+        </div>
+        {% endif %}
+    </div>
+</body>
+</html>

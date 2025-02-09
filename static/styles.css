@@ -1,0 +1,99 @@
+body {
+    font-family: 'quantico','Poppins', sans-serif;
+    background-color: #121212;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+.quantico-regular {
+    font-family: "Quantico", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+.container {
+    display: flex;
+    flex-direction: column;
+    max-width: 1000px;
+    margin: auto;
+    padding: 20px;
+    background: #1e1e1e;
+    border-radius: 15px;
+    box-shadow: 0px 0px 15px #bfa8ff;
+}
+
+h1 {
+    font-size: 32px;
+    color: #ccbcf9;
+}
+
+h2 {
+    font-size: 24px;
+    color: #bfa8ff;
+}
+
+input {
+    padding: 12px;
+    width: 80%;
+    font-size: 16px;
+    border: none;
+    border-radius: 8px;
+    background: #333;
+    color: white;
+}
+
+button {
+    padding: 12px;
+    width: 85%;
+    font-size: 16px;
+    border: none;
+    border-radius: 8px;
+    background: #bfa8ff;
+    color: black;
+    font-weight: bold;
+    cursor: pointer;
+    font-family: 'quantico','Poppins', sans-serif;
+
+}
+
+button:hover {
+    background: rgb(234, 176, 255);
+    font-family: 'quantico','Poppins', sans-serif;
+
+}
+
+.playlist-box {
+    text-align: left;
+    padding: 15px;
+    background: #222;
+    border-radius: 10px;
+    box-shadow: 0px 0px 8px #a98ff1;
+}
+
+img {
+    border-radius: 50%;
+    border: 1px solid #ddd;
+    position: center;
+    width: 60%;
+}
+
+form {
+    padding: 50px;
+}
+
+label {
+    margin: 20px;
+    font-family: 'quantico','Poppins', sans-serif;
+}
+
+pre { 
+      
+    font-family: 'quantico','Poppins', sans-serif;
+    font-size: 17px;
+    flex-wrap: wrap;
+    white-space: pre-wrap;   
+    word-wrap: break-word;   
+    overflow-wrap: break-word; 
+    max-width: 100%; 
+}
