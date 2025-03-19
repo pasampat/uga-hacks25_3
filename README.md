@@ -11,5 +11,5 @@ Problems: We had trouble accessing an AI because many of them need an API key an
 
 Public frameworks used: Gemini API
 
-Here's a link to our website.
+Here's a link to our website. Please be patient, it is very very slow. 
 https://uga-hacks25-3.onrender.com/
